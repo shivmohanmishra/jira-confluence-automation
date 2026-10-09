@@ -1,0 +1,18 @@
+{
+  "name": "jira-sprint-dashboard",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev --workspace @jira-dashboard/web\" \"npm run dev --workspace @jira-dashboard/api\"",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
