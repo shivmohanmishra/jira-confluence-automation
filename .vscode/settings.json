@@ -3,5 +3,11 @@
   "chat.mcp.access": "all",
   "chat.agent.maxRequests": 250,
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 100
+  "files.autoSaveDelay": 100,
+  "chat.tools.terminal.autoApprove": {
+    "/^powershell -NoProfile -ExecutionPolicy Bypass -Command \"Write-Output 'Hello MCP!'\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
 }
