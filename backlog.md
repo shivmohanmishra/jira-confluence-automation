@@ -9,9 +9,9 @@
 - [x] Bootstrap the npm workspace with a React/TypeScript frontend and Express/TypeScript API.
 - [x] Install dependencies and verify frontend/API typechecks and production builds.
 - [x] Configure ignores for dependencies, generated builds, and environment secrets.
-- [ ] Confirm the Jira Cloud site URL and the numeric ID for the Amplify Scrum board.
-- [ ] Confirm the board filter, active-sprint selection rule, sprint goal/date fields, and story-point field.
-- [ ] Map Jira workflow statuses and flags that represent blocked work.
+- [ ] Confirm the Jira Cloud site URL and the numeric ID for the Amplify Scrum board. GitHub issues: #1, #3, #6, #7.
+- [ ] Confirm the board filter, active-sprint selection rule, sprint goal/date fields, and story-point field. GitHub issues: #2, #4, #5, #8.
+- [ ] Map Jira workflow statuses and flags that represent blocked work. GitHub issue: #9.
 - [ ] Agree on the timezone and business-day calendar used by the two-working-day risk rule.
 - [ ] Register company SSO and Jira OAuth applications; confirm least-privilege scopes and callback URLs.
 - [ ] Confirm internal hosting, secret-store, audit, data-retention, and accessibility requirements.
