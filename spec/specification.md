@@ -33,6 +33,10 @@ This feature specification covers the Jira sprint dashboard described in Module 
 - Performing Confluence operations.
 - Replacing Jira as the source of truth for sprint or issue data.
 
+### V1 Scope Decision — T001
+
+**Decision:** Confirmed by the product owner on 2026-10-12. This specification covers only the Jira Amplify sprint dashboard described above. Confluence reads or writes, multiple boards, cross-sprint analytics, issue editing, and Slack notifications are out of scope for V1. Any proposed scope change must be recorded here with acceptance criteria before implementation.
+
 ## 4. Users and User Scenarios
 
 ### User roles
